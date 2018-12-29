@@ -1,0 +1,32 @@
+<div class="container">
+<div class="blog">
+<!-- <form >
+    <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" formControlName="username" class="form-control"  placeholder="Your email" ngModel />
+        <div *ngIf="submitted && f.username.errors" class="invalid-feedback">
+            <div *ngIf="f.username.errors.required">Username is required</div>
+        </div>
+    </div>
+    <div class="form-group">
+        <input type="password" formControlName="password" class="form-control"  placeholder="Your Password"/>
+        <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+            <div *ngIf="f.password.errors.required">Password is required</div>
+        </div>
+    </div>
+    <div class="form-group">
+        <button (click)="logIn()" routerLink="/home" type="submit" class="btn btn-primary btnLog">Login</button>
+        <button class="btn btn-primary btnRes">Register</button>
+    </div>
+</form> -->
+ <form #addForm="ngForm" class="form-group" (ngSubmit)='onAdd(addForm)'> 
+            <input type="text" #name='ngModel' class="form-control" required minlength="10" name='name' placeholder="UserName" ngModel/>
+            <input type="text" required minlength="10" class="form-control" name='password' placeholder="Password" ngModel/>
+            <span [style.color]="name.invalid ? 'red':'black'" *ngIf="addForm.submitted && name.errors.required">you have fill the name</span>
+            <span *ngIf="addForm.submitted && name.errors.minlength">the name must be greater 10</span>
+            <button (click)="logIn()" routerLink="/home" class="btn btn-primary btnLog">Login</button>
+          </form>
+</div>
+</div>
+
+<app-footer></app-footer>

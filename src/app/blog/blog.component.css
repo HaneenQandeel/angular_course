@@ -1,0 +1,32 @@
+container{
+  margin: 0 auto;
+}
+.blog{
+  margin-top: 50px;
+  margin-left: 280px;
+}
+form{
+  width:500px;
+  height: 300px;
+  border:5px solid #eee;
+  
+}
+form input{
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top:60px;
+}
+
+form label{
+  margin-top: 10px;
+}
+form button.btnLog{
+  margin-top:30px;
+  text-align: center;
+  margin-left:200px;
+}
+form button.btnRes{
+  margin-left:30px;
+  margin-top:30px;
+}

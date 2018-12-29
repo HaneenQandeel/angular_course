@@ -1,0 +1,106 @@
+.section-t8 {
+    padding-top: 8rem;
+  }
+.section-md-t3 {
+    padding-top: 3rem;
+  }
+
+.icon-box .icon-box-icon {
+    display: table-cell;
+    vertical-align: top;
+    font-size: 36px;
+    color: #000000;
+    width: 50px;
+    padding-top: 8px;
+  }
+  
+.icon-box .icon-box-content {
+    padding-top: 18px;
+  }
+
+  .btn {
+    transition: .5s ease;
+  }
+  
+  .btn.btn-a,
+  .btn.btn-b {
+    border-radius: 0;
+    padding: 1rem 3rem;
+    letter-spacing: .05rem;
+  }
+  
+  .btn.btn-a {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  .btn.btn-a:hover {
+    background-color: #2eca6a;
+    color: #000000;
+  }
+  
+  .btn.btn-b {
+    background-color: #2eca6a;
+    color: #000000;
+  }
+  
+  .btn.btn-b:hover {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  .btn.btn-b-n {
+    background-color: #2eca6a;
+    color: #ffffff;
+    border-radius: 0;
+  }
+  
+  .btn.btn-b-n:hover {
+    background-color: #26a356;
+    color: #ffffff;
+  }
+  .icon-box .icon-box-icon {
+    display: table-cell;
+    vertical-align: top;
+    font-size: 36px;
+    color: #000000;
+    width: 50px;
+    padding-top: 8px;
+  }
+  
+  .icon-box .icon-box-content {
+    padding-top: 18px;
+  }
+
+.icon-box .icon-box-content {
+    padding-top: 18px;
+}
+
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-box .icon-box-icon {
+  display: table-cell;
+  vertical-align: top;
+  font-size: 36px;
+  color: #000000;
+  width: 50px;
+  padding-top: 8px;
+}
+.h4, h4 {
+  font-size: 1.5rem;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #000000;
+  font-family: 'Poppins', sans-serif;
+}

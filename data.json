@@ -1,0 +1,93 @@
+{
+  "homes": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "propertyid": "123",
+      "location": "Eygpt",
+      "type": "nns",
+      "description": "hhhhhhhhhhhhhhhhhh",
+      "area": "230m",
+      "beds": 5,
+      "garage": 1
+    },
+    {
+      "id": 2,
+      "title": "json-server",
+      "propertyid": "333",
+      "location": "",
+      "type": "nns",
+      "description": "hhhhhhhhhhhhhhhhhh",
+      "area": "230m",
+      "beds": 5,
+      "garage": 1
+    },
+    {
+      "id": 3,
+      "title": "json-server",
+      "propertyid": "21",
+      "location": "Gaza",
+      "type": "vv",
+      "description": "hhhhhhhhhhhhhhhhhh",
+      "area": "230m",
+      "beds": 5,
+      "garage": 1
+    },
+    {
+      "id": 4,
+      "title": "json-server",
+      "propertyid": "2223",
+      "location": "PAL",
+      "type": "KK",
+      "description": "hhhhhhhhhhhhhhhhhh",
+      "area": "230m",
+      "beds": 5,
+      "garage": 1
+    },
+    {
+      "id": 5,
+      "title": "json-server",
+      "propertyid": "255",
+      "location": "Mnn",
+      "type": "lll",
+      "description": "hhhhhhhhhhhhhhhhhh",
+      "area": "230m",
+      "beds": 5,
+      "garage": 1
+    },
+    {
+      "id": 6,
+      "title": "json-server",
+      "propertyid": "66",
+      "location": "gazaa",
+      "type": "nn",
+      "description": "hhhhhhhhhhhhhhhhhh",
+      "area": "230m",
+      "beds": 5,
+      "garage": 1
+    }
+  ],
+  "details": [
+    {
+      "name": "han",
+      "email": "gab@gmail.com",
+      "subject": "jjs",
+      "message": "fddddddd",
+      "id": 1
+    },
+    {
+      "name": "hannnnnnen",
+      "email": "han",
+      "subject": "ffffff",
+      "message": "ffffffffff",
+      "id": 2
+    },
+    {
+      "name": "hannnnnnen",
+      "email": "han",
+      "subject": "ffffff",
+      "message": "ffffffffff",
+      "id": 3
+    }
+  ]
+}

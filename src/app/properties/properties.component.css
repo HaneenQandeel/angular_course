@@ -1,0 +1,50 @@
+/*------/ Property Single /-----*/
+
+.gallery-property {
+    margin-bottom: 3rem;
+  }
+  
+  .property-price {
+    margin: 0 auto;
+  }
+  
+  .property-price .card-header-c {
+    padding: 0;
+  }
+  
+  .summary-list {
+    padding-right: 1rem;
+    color: #000000;
+  }
+  
+  .summary-list .list {
+    padding: 0;
+    line-height: 2;
+  }
+  
+  .summary-list .list span {
+    color: #555555;
+  }
+  
+  .property-agent .title-agent {
+    font-weight: 600;
+  }
+  
+  .property-agent ul {
+    line-height: 2;
+    color: #000000;
+  }
+  
+  .property-agent .socials-a {
+    text-align: center;
+  }
+
+.property-grid{
+  margin-top: 50px;
+}
+.property-grid h2.title-a{
+  margin-bottom: 50px;
+}
+.card-box-a{
+  margin-top: 30px;
+}

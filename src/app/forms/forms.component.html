@@ -1,0 +1,35 @@
+<form [formGroup]='myForm' class="form-a contactForm" (ngSubmit)='OnSubmit()'></form>
+  <input formControlName='name' class="form-control form-control-lg form-control-a" type="text" required placeholder="Your Name" />
+  <input formControlName='email' type="email" placeholder="Email"/>
+  <input formControlName='subject' type="test" placeholder="Subject"/>
+  <textarea rows="7" cols="60" placeholder="Message"></textarea>
+  <button>Send Message</button>
+</form>
+
+      <!-- <form [formGroup]='myForm' class="form-a contactForm" (ngSubmit)='OnSubmit()'></form>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <div class="form-group">
+              <input type="text" name="name" class="form-control form-control-lg form-control-a" placeholder="Your Name" >
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <div class="form-group">
+              <input formControlName='name' class="form-control form-control-lg form-control-a" type="text" required placeholder="Your Nareman" />
+            </div>
+          </div>
+          <div class="col-md-12 mb-3">
+            <div class="form-group">
+              <input formControlName='subject' class="form-control form-control-lg form-control-a" type="test" placeholder="Subject"/>
+            </div>
+          </div>
+          <div class="col-md-12 mb-3">
+            <div class="form-group">
+              <textarea rows="7" cols="60" class="form-control" placeholder="Message"></textarea>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <button class="btn btn-a">Send Message</button>
+          </div>
+        </div>
+      </form> -->
